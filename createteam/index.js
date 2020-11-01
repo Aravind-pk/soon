@@ -320,7 +320,9 @@ setPlayers();
 updateCredit();
 setProgressBar();
 
-
+const play=()=>{
+    sessionStorage.setItem('myTeam', myTeam);
+}
 
 
 
@@ -380,5 +382,4 @@ function glowLeave3(parent){
     parent.style.border= ".25vmin solid #495057";
 
 }
-
 
